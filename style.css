@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,700&display=swap');
 
-html,
-body {
+html, body {
   margin: 0;
-  border: 0;
+  padding: 0;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -12,7 +11,7 @@ body {
   grid-template-columns: 1fr;
   align-items: center;
   background-color: cadetblue;
-
+}
 
 .title {
   padding: 50px 25px;
@@ -35,7 +34,7 @@ img {
   height: auto;
 }
 
-@media (min-width: 960px) {
+@media (min-width: 1480) {
   .header {
     grid-template-columns: repeat(2, 1fr);
   }
